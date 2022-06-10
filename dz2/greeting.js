@@ -1,24 +1,34 @@
-let i = 0;
-    j = 0;{
-    let max = 15;
-    let space = "",
-        star = "";
+// var i = 0;
+//     j = 0;{
+//     var max = 7;
+//     var space = "",
+//         star = "";
+// }
+// while (i < max) {
+//     space = "";
+//     star = "";
+//     for (j = 0; j < max - i; j++) space += " ";
+//     for (j = 0; j < 2 * i + 1; j++) star += "*";
+//     console.log(space + star);
+//     i++;
+//  }
+let k = "";
+for(let i = 1; i <= 7; i++) {
+    for(let j = 0; j <= i; i++ ){
+        k+="*"
+    }
+    k+='\n'
 }
-while (i < max) {
-    space = "",
-    star = "";
-    for (j = 0; j < max - i; j++) space += " ";
-    for (j = 0; j < 2 * i + 1; j++) star += "*";
-    console.log(space + star);
-    i++;
- }
+console.log(k)
+
+
 for ( let j = 1; j <= 100; j++) {
     str = '';
-    if( j%3 == 0 )
+    if( j%3 === 0 )
     {
         str += 'Fizz';
     }
-    else if ( j%5 == 0 )
+    else if ( j%5 === 0 )
     {
         str += 'Buzz';
     }
