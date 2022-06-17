@@ -1,0 +1,27 @@
+body {
+    background: cornsilk;
+}
+.container {
+    background: lightgreen;
+    height: 200px;
+    width: 500px;
+    border: 10px solid black;
+    margin: auto;
+    align-items: center;
+}
+.counter-display {
+    text-align: center;
+    color: black;
+}
+.counter-minus {
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 125px;
+}
+.counter-plus {
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
